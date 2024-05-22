@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
+  color: #040000;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  margin: 0 auto;
+  overflow-x: hidden;
+
 }
 
 code {
