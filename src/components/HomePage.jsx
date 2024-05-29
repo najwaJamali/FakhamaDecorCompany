@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function HomePage() {
     return (
         <div className="HomePage">
-            <div className="HeaderPicHomePage">
+            <div className="HeaderPicHomePage ">
             </div>
             <section className='AboutComponent py-3 py-md-5'>
                 <div className="container">
@@ -17,12 +17,12 @@ function HomePage() {
                         <div className="col-12 col-lg-6 col-xl-7">
                             <div className="row justify-content-xl-center">
                                 <div className="col-12 col-xl-11">
-                                    <h2 className="mb-3">À propos de FAKHAMA DECOR</h2>
-                                    <p className="lead fs-5  mb-3 pb-5">
-                                        Fondée en 2020, FAKHAMA DECOR est une entreprise marocaine spécialisée dans la vente de tissus de haute qualité. Basée à Casablanca, FAKHAMA DECOR compte plus de trois magasins stratégiquement situés à Derb Oumar, offrant ainsi un accès facile à nos produits pour une clientèle variée et exigeante.
-                                        Chez FAKHAMA DECOR, nous nous engageons à offrir un large choix de tissus qui allient élégance, durabilité et raffinement. Nous sélectionnons minutieusement nos collections pour répondre aux besoins spécifiques de chaque client, qu'il s'agisse de particuliers ou de professionnels du secteur de la décoration intérieure.
+                                    <h2 className="  mb-3">À propos de  <span className="Fakhama">FAKHAMA DECOR</span> </h2>
+                                    <p className="AboutText fs-5  mb-3 pb-5">
+                                        Fondée en 2020, <span className="Fakhama">FAKHAMA DECOR</span> est une entreprise marocaine spécialisée dans la vente de tissus de haute qualité. Basée à Casablanca, <span className="Fakhama">FAKHAMA DECOR</span> compte plus de trois magasins stratégiquement situés à Derb Oumar, offrant ainsi un accès facile à nos produits pour une clientèle variée et exigeante.
+                                        Chez <span className="Fakhama">FAKHAMA DECOR</span>, nous nous engageons à offrir un large choix de tissus qui allient élégance, durabilité et raffinement. Nous sélectionnons minutieusement nos collections pour répondre aux besoins spécifiques de chaque client, qu'il s'agisse de particuliers ou de professionnels du secteur de la décoration intérieure.
                                         Notre équipe dédiée est passionnée par les textiles et s'efforce de fournir un service client exceptionnel. Nous croyons fermement que la satisfaction de nos clients est la clé de notre succès. Ainsi, nous offrons des conseils personnalisés et un accompagnement tout au long du processus d'achat pour garantir que chaque client trouve le tissu parfait pour son projet.
-                                        FAKHAMA DECOR, c'est plus qu'une simple boutique de tissus. C'est un lieu où la qualité rencontre le choix, et où chaque visite est une expérience unique et inspirante. Venez découvrir notre gamme exclusive et laissez-vous séduire par l'élégance et la qualité de nos tissus.
+                                        <span className="Fakhama">FAKHAMA DECOR</span>, c'est plus qu'une simple boutique de tissus. C'est un lieu où la qualité rencontre le choix, et où chaque visite est une expérience unique et inspirante. Venez découvrir notre gamme exclusive et laissez-vous séduire par l'élégance et la qualité de nos tissus.
                                     </p>
                                 </div>
                             </div>
@@ -111,29 +111,23 @@ function HomePage() {
 
 </section >
             <div className='OurProducts pb-3'>
-                <h2 className="TitleOurProductSection">Our Products</h2>
+                <h2 className="TitleOurProductSection">Best Sellers </h2>
                 <div className=" OurProductsItems pb-3 row">
                     <div className="col-sm-3 pb-3">
                         <div className="card">
                             <div className="card-body">
-                                <img className="card-img" src="/img/SilkPic.jpeg" alt="SilkPic" />
+                                <img className="card-img " src="/img/SilkPic.jpeg" alt="SilkPic" />
                                 <h5 className="card-title"><strong>Silk Fabric</strong></h5>
-                                <p className="card-text">
-                                    A luxurious, natural fiber with a smooth texture and high sheen.<br />
-                                </p>
-                                <a href="#" className="btn btn-primary">More Pic</a>
+                                
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-3 pb-3">
+                    <div className="col-sm-3 ">
                         <div className="card">
                             <div className="card-body">
                                 <img className="card-img" src="/img/NylonPic.jpeg" alt="NylonPic" />
                                 <h5 className="card-title"><strong>Nylon Fabric</strong></h5>
-                                <p className="card-text">
-                                    A strong, synthetic fiber known for its resilience and resistance to abrasion.<br />
-                                </p>
-                                <a href="#" className="btn btn-primary">More Pic</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -142,10 +136,7 @@ function HomePage() {
                             <div className="card-body">
                                 <img className="card-img" src="/img/CottonPic.jpeg" alt="CottonPic" />
                                 <h5 className="card-title"><strong>Cotton Fabric</strong></h5>
-                                <p className="card-text">
-                                    A natural fiber that is soft, durable, and breathable.<br />
-                                </p>
-                                <a href="#" className="btn btn-primary">More Pic</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -154,10 +145,7 @@ function HomePage() {
                             <div className="card-body">
                                 <img className="card-img" src="/img/ChenillePic.jpeg" alt="ChenillePic" />
                                 <h5 className="card-title"><strong>Chenille Fabric</strong></h5>
-                                <p className="card-text">
-                                    A soft, fuzzy fabric with a texture similar to a caterpillar.<br />
-                                </p>
-                                <a href="#" className="btn btn-primary">More Pic</a>
+                                
                             </div>
                         </div>
                     </div>

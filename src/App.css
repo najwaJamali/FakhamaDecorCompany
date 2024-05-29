@@ -35,23 +35,30 @@
   padding-top: 5px;
 
 }
+.Fakhama{
+  color: #266a7b;
+}
+.AboutText{
+  text-align: left;
+}
+.img-fluid{
+  width: 600px;
+  height: 550px;
+}
 
 
 
 .HomePage .HeaderPicHomePage{
-   padding-top: 5px;
-   padding-bottom: 10px;
-   padding-right: 0;
-   background-image: url('../public/img/HomePageHeader.jpeg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   height: 600px;
-  
-   padding-top: 5px;
-
-
-   border-radius: 10px solid ;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  background-image: url('../public/img/HomePageHeader.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding-top: 5px;
+  border-radius: 10px solid ;
 }
 
 .TitleOurProductSection{
@@ -62,12 +69,8 @@
 padding: 30px 20px;
 display: flex;
 flex-direction: row;
-  
+}
 
-}
-.Card{
-  height: 50px;
-}
 .card .card-body .card-title {
   padding-top: 5px;
   font-size: larger;
@@ -81,8 +84,25 @@ flex-direction: row;
   padding-right: 0px;
   height: 100px;
 }
+.card-body{
+  border:reduis;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  height: 256px;
+  width: 290px;
+}
 
+.card-body .card-img{
+  width: 270px;
+  height: 200px;
+}
 
-
-
+.contactus{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  background-image: url();
+}
 
