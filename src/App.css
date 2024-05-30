@@ -81,6 +81,7 @@ flex-direction: row;
 
 .footerContainer{
   padding-left: 0px;
+  padding-top: 25px;
   padding-right: 0px;
   height: 100px;
 }
@@ -98,11 +99,18 @@ flex-direction: row;
   height: 200px;
 }
 
-.contactus{
-  max-width: 500px;
-  margin: auto;
-  background: white;
-  padding: 10px;
-  background-image: url();
+.ContactUsForm{
+  padding-left: 450px;
+  padding-right: 450px;
+  padding-bottom: 20px;
+  background: rgb(243,243,243);
+  background: linear-gradient(184deg, rgba(243,243,243,1) 1%, rgba(194,194,193,1) 98%);  box-shadow: 10px 10px 5px 12px rgb(153, 161, 164);
+  display:block;
+
+
+}
+.imgMail{
+  width: 50px;
+  height: 50px;
 }
 

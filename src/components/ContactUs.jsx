@@ -1,47 +1,41 @@
 import React from "react";
-import '../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function ContactUs() {
     return (
-        <div className="contactus centre ">
-            <form style={{ width: '26rem' }}>
-                <div data-mdb-input-init className="form-outline mb-4">
-                <label className="form-label" htmlFor="form4Example1">Name :</label>
-                    <input type="text" id="form4Example1" className="form-control" />
-                    
-                </div>
+        <form className="ContactUsForm" >
+            <img className="imgMail pt-2" src="/img/email_552486.png" alt="" />
+            <h2 className="title pt-2 pb-3" >Contact Us</h2>
 
-                <div data-mdb-input-init className="form-outline mb-4">
-                <label className="form-label" htmlFor="form4Example2">Email address :</label>
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Name</label>
+            </div>
 
-                    <input type="email" id="form4Example2" className="form-control" />
-                </div>
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Email address</label>
+            </div>
 
-                <div data-mdb-input-init className="form-outline mb-4">
-                <label className="form-label" htmlFor="form4Example3">Message :</label>
+            <div data-mdb-input-init class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+            </div>
 
-                    <textarea className="form-control" id="form4Example3" rows="4"></textarea>
-                </div>
+            <div class="form-check d-flex justify-content-center mb-4">
+                <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form4Example4"
+                    checked
+                />
+                <label class="form-check-label" for="form4Example4">
+                    Send me a copy of this message
+                </label>
+            </div>
 
-                <div className="form-check d-flex justify-content-center mb-4">
-                    <input
-                        className="form-check-input me-2"
-                        type="checkbox"
-                        value=""
-                        id="form4Example4"
-                        defaultChecked
-                    />
-                    <label className="form-check-label" htmlFor="form4Example4">
-                        Send me a copy of this message
-                    </label>
-                </div>
-
-                <button data-mdb-ripple-init type="button" className="btn btn-primary btn-block mb-4">Send</button>
-            </form>
-        </div>
+            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
     );
 }
 
